@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.0.7](https://github.com/jcape/rxegy/compare/rxegy-v0.0.6...rxegy-v0.0.7) - 2025-03-09
+
+### Added
+
+- [**breaking**] remove callbacks traits, add builders, cleanup callback invocation.
+- [**breaking**] remove session callbacks trait
+
+### Other
+
+- *(ci)* fix rust-src component name
+- *(ci)* actually install miri
+- *(ci)* fix cargo deny issues
+- add CONTRIBUTING.md with style guide
+- [**breaking**] fix clippy warnings about enum names
+- sort workspace entries, remove unused anyhow
+- devcontainer on mac, add miri, add extra checks
+
 ## [0.0.6](https://github.com/jcape/rxegy/compare/rxegy-v0.0.5...rxegy-v0.0.6) - 2025-03-03
 
 ### Added
