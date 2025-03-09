@@ -16,7 +16,7 @@ pre-release-replacements = [
 ]
 
 [workspace.package]
-version = "0.0.6"
+version = "0.0.7"
 authors = ["James Cape <jamescape777@gmail.com>"]
 edition = "2024"
 license = "Apache-2.0"
@@ -44,7 +44,7 @@ rust-version.workspace = true
 [dependencies]
 displaydoc = "0.2.1"
 ref-cast = "1"
-rxegy-sys = { path = "./sys", version = "0.0.6" }
+rxegy-sys = { path = "./sys", version = "0.0.7" }
 secrecy = "0.10"
 thiserror = "2"
 tracing = "0.1"

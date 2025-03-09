@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.7](https://github.com/jcape/rxegy/compare/rxegy-sys-v0.0.6...rxegy-sys-v0.0.7) - 2025-03-09
+
+### Added
+
+- [**breaking**] derive core traits from bindgen
+- support xcapi include and libdir, minor cleanup
+
 ## [0.0.5](https://github.com/jcape/rxegy/compare/rxegy-sys-v0.0.4...rxegy-sys-v0.0.5) - 2025-03-03
 
 ### Added
